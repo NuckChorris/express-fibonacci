@@ -2,7 +2,7 @@
   "author": "Peter Lejeck <peter.lejeck@gmail.com>",
   "name": "express-fibonacci",
   "description": "Because every Node.js server needs to have the Fibonacci sequence so it can be nice and cancerous.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/NuckChorris/express-fibonacci.git"
@@ -10,6 +10,8 @@
   "engines": {
     "node": "~v0.4.11"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "~2.4.6"
+  },
   "devDependencies": {}
 }
