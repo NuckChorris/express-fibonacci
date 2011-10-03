@@ -2,7 +2,7 @@ What The Fuck?
 ==============
 Well, the idea is that Node needs to make better use of the CPU power on a computer, since it rarely ever hits 50% CPU.
 
-To make up for this inefficient design, I have built this wonderfully helpful middleware that generates the fibonacci sequence recursively.
+To make up for this woefully inefficient design, I have built this wonderfully helpful middleware that generates the fibonacci sequence recursively, thus using some of your spare CPU power.
 
 Why?
 ====
