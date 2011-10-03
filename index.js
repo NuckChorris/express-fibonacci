@@ -1,5 +1,5 @@
 module.exports = function (n) {
-	function fibonacci(n, done) {
+  function fibonacci(n, done) {
     if (n < 2) {
       done(1);
     } else {
@@ -12,7 +12,7 @@ module.exports = function (n) {
       });
     }
   }
-	return function (req, res, next) {
+  return function (req, res, next) {
     fibonacci(n, function(value) {
       req.fibonacci = value;
       next();
