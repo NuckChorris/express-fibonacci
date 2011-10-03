@@ -1,4 +1,4 @@
-module.exports = function (n) {
+module.exports = function (num) {
   function fibonacci(n, done) {
     if (n < 2) {
       done(1);
@@ -13,7 +13,7 @@ module.exports = function (n) {
     }
   }
   return function (req, res, next) {
-    fibonacci(n, function(value) {
+    fibonacci(num, function(value) {
       req.fibonacci = value;
       next();
     });

@@ -10,8 +10,6 @@
   "engines": {
     "node": "~v0.4.11"
   },
-  "dependencies": {
-    "express": "~2.4.6"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
