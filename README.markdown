@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/NuckChorris/express-fibonacci.png)](http://travis-ci.org/NuckChorris/express-fibonacci)
 What The Fuck?
 ==============
 Well, the idea is that Node needs to make better use of the CPU power on a computer, since it rarely ever hits 50% CPU.
