@@ -14,9 +14,13 @@ IDKLOL ASK [TED DZIUBA](http://teddziuba.com/2011/10/node-js-is-cancer.html).
 
 Okay, how do I use it?
 ======================
-First, _install_ it.
+First, _install_ it using your favourite package manager
 
-	npm install express-fibonacci
+	yarn add express-fibonacci
+
+or
+
+	npm install --save express-fibonacci
 
 Then, `require` it and use it.
 
